@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNY HOTELS & RESORTS - UNYSTAY | 70/30 Vacation Ownership | unyhotels.com</title>
+<meta name="description" content="UNY HOTELS AND RESORTS PVT LTD - Official site unyhotels.com - India's 70/30 Vacation Ownership Platform. List your farmhouse, earn 70% guaranteed.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<style>body{font-family:'Inter',sans-serif}.serif{font-family:'Playfair Display',serif}</style>
+</head>
+<body class="bg-[#FFFCF5]">
+<nav class="flex justify-between items-center px-6 md:px-16 py-5 bg-white shadow-sm sticky top-0 z-50">
+<div class="flex items-center gap-3"><div class="w-10 h-10 bg-black rounded-xl flex items-center justify-center text-white font-extrabold text-lg">U</div><div><span class="font-extrabold text-xl tracking-tight">UNY HOTELS</span><div class="text-[9px] tracking-[0.2em] font-bold opacity-50 -mt-1">AND RESORTS • UNYHOTELS.COM</div></div></div>
+<a href="#list" class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold">List Property - Get 70%</a>
+</nav>
+
+<section class="px-6 md:px-16 py-16 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+<div>
+<div class="inline-flex bg-black text-white px-4 py-1.5 rounded-full text-[11px] font-bold mb-5">✓ DOMAIN BOOKED: UNYHOTELS.COM • Pilot: Sohna / Manesar</div>
+<h1 class="serif text-4xl md:text-6xl font-bold leading-[1.05]">Own Your<br><span class="bg-black text-white px-2">Holidays</span>, Not<br>Just a Property.</h1>
+<p class="mt-6 text-[17px] text-gray-700 leading-relaxed">We are <b>UNY HOTELS AND RESORTS PRIVATE LIMITED</b> - Delhi. Official site <b>unyhotels.com</b>. We turn your empty farmhouses into Club Mahindra-style memberships. <br><br><span class="font-bold bg-[#FFF3E0] px-2 py-1">You provide 100 nights. We provide 100 members. 70% to you, 30% to us.</span></p>
+<div class="mt-8 flex gap-4">
+<button onclick="document.getElementById('list').scrollIntoView({behavior:'smooth'})" class="bg-black text-white px-8 py-4 rounded-full font-bold text-sm">List on UNYHOTELS.COM</button>
+<button onclick="document.getElementById('plans').scrollIntoView({behavior:'smooth'})" class="bg-white border-2 border-black px-8 py-4 rounded-full font-bold text-sm">Buy UNYSTAY @ Rs 2L</button>
+</div>
+<p class="mt-4 text-[11px] text-gray-500 font-semibold">RERA Compliant • ROC Delhi • 70/30 RazorpayX Payout • unyhotels.com</p>
+</div>
+<div class="relative"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800" class="w-full h-[480px] object-cover rounded-[32px] shadow-2xl"><div class="absolute -bottom-8 -left-4 bg-white p-6 rounded-2xl shadow-2xl border w-[280px]"><p class="text-[10px] font-bold tracking-widest opacity-50">LIVE PAYOUT - UNYHOTELS.COM</p><p class="text-3xl font-extrabold mt-1">Rs 94,500 <span class="text-sm text-green-600">70%</span></p><p class="text-xs text-gray-500 mt-1">Owner: Golden Greens, Sohna<br>Payout via RazorpayX - 15th May</p></div></div>
+</section>
+
+<section id="plans" class="px-6 md:px-16 py-20 bg-white">
+<h2 class="text-center text-3xl md:text-5xl font-extrabold">UNYSTAY by UNY HOTELS<br><span class="text-gray-400 text-2xl md:text-3xl">Buy 35 Holidays for Rs 2L</span></h2>
+<div class="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
+<div class="border-[3px] border-black p-8 rounded-[32px] relative bg-[#FFFCF5]"><div class="absolute -top-4 left-8 bg-black text-white px-4 py-1 rounded-full text-xs font-bold">MOST POPULAR • UNYHOTELS.COM</div><h3 class="text-2xl font-extrabold mt-2">Explorer</h3><p class="text-4xl font-extrabold mt-2">Rs 2,00,000 <span class="text-sm font-normal">/ 5 Years</span></p><ul class="mt-6 space-y-3 text-sm font-medium"><li>✓ 350 Points = 35 Nights on unyhotels.com</li><li>✓ Sohna, Manesar, Goa, Himachal</li><li>✓ Rent unused nights - You earn 70%</li><li>✓ Official Invoice from UNY HOTELS AND RESORTS P LTD</li></ul><button onclick="payNow('UNYSTAY Explorer - unyhotels.com - Rs 2L', 200000)" class="w-full mt-8 bg-black text-white py-4 rounded-full font-bold">Pay via Razorpay - unyhotels.com</button></div>
+<div class="bg-gray-50 p-8 rounded-[32px] border"><h3 class="text-2xl font-extrabold">Voyager</h3><p class="text-4xl font-extrabold mt-2">Rs 3.5L <span class="text-sm font-normal">/ 10 Years</span></p><button onclick="payNow('UNYSTAY Voyager - unyhotels.com - Rs 3.5L', 350000)" class="w-full mt-8 bg-white border-2 border-black py-4 rounded-full font-bold">Pay via Razorpay</button></div>
+</div>
+</section>
+
+<section id="list" class="px-6 md:px-16 py-20 bg-black text-white">
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+<div><h2 class="text-4xl font-extrabold">List on<br>unyhotels.com<br>Get 70% Guaranteed.</h2><p class="mt-4 opacity-70 text-sm">Domain booked: unyhotels.com - Company: UNY HOTELS AND RESORTS PRIVATE LIMITED - To be registered, Delhi MCA, ROC Delhi. Sister brands: uny.life, unyplay, unylifesciences.com<br><br>70/30 Model: No property sale. Only Leave & License. RERA Agent.</p><div class="mt-8 grid grid-cols-2 gap-4 text-xs"><div class="bg-white/10 p-4 rounded-xl"><p class="font-bold">RERA</p><p class="opacity-60 mt-1">Haryana Agent License</p></div><div class="bg-white/10 p-4 rounded-xl"><p class="font-bold">PAYOUT</p><p class="opacity-60 mt-1">RazorpayX - 15th & 30th</p></div></div></div>
+<form id="leadForm" class="bg-white text-black p-8 rounded-[24px] space-y-4">
+<input type="text" id="name" placeholder="Owner Name - As per Sale Deed" required class="w-full border-2 border-gray-100 p-4 rounded-xl text-sm font-medium">
+<input type="tel" id="phone" placeholder="WhatsApp Number" required class="w-full border-2 border-gray-100 p-4 rounded-xl text-sm">
+<input type="text" id="location" placeholder="Property Location - e.g., Sohna Road, Farm No 12" required class="w-full border-2 border-gray-100 p-4 rounded-xl text-sm">
+<input type="text" id="rera" placeholder="Sale Deed No / Khasra No" class="w-full border-2 border-gray-100 p-4 rounded-xl text-sm">
+<button type="submit" class="w-full bg-black text-white py-4 rounded-full font-bold">Submit to UNYHOTELS.COM - Claim 70%</button>
+<p class="text-[10px] text-center text-gray-400">Official: UNY HOTELS AND RESORTS PVT LTD • unyhotels.com • Delhi Jurisdiction</p>
+</form>
+</div>
+</section>
+
+<footer class="px-6 md:px-16 py-10 bg-[#111] text-white text-[11px] leading-relaxed">
+<div class="flex flex-col md:flex-row justify-between gap-6"><div><p class="font-extrabold text-sm">UNY HOTELS AND RESORTS PRIVATE LIMITED</p><p class="opacity-50 mt-2 max-w-md">To be incorporated under MCA, ROC Delhi. Official Domain: unyhotels.com (Booked) | Sister Domains: uny.life, unylifesciences.com, unyplay. Brand: UNY HOTELS. Product: UNYSTAY. This is NOT an investment scheme under SEBI SM REIT. This is vacation ownership under Ministry of Tourism. No guaranteed returns. Holidays guaranteed. All payouts via RazorpayX under 70/30 Inventory Agreement.</p></div><div class="opacity-50"><p>Contact: hello@unyhotels.com<br>Location: Faridabad / Delhi NCR<br>ROC: Delhi<br>GST: To be obtained</p></div></div>
+<p class="mt-8 opacity-20">© 2026 UNY HOTELS AND RESORTS PVT LTD • unyhotels.com • Booked on GoDaddy • All Rights Reserved</p>
+</footer>
+
+<script>
+function payNow(plan, amount){
+ var options = {
+  "key": "rzp_test_YOUR_KEY_HERE",
+  "amount": amount*100,
+  "currency": "INR",
+  "name": "UNY HOTELS AND RESORTS PVT LTD",
+  "description": plan,
+  "image": "https://unyhotels.com/logo.png",
+  "handler": function (response){ alert('Payment Success! ID: '+response.razorpay_payment_id+'\nUNY HOTELS team will call you - unyhotels.com'); },
+  "prefill": {"contact": document.getElementById('phone')?.value || "", "name": document.getElementById('name')?.value || ""},
+  "theme": {"color": "#000000"}
+ };
+ var rzp = new Razorpay(options); rzp.open();
+}
+document.getElementById('leadForm').addEventListener('submit', function(e){
+ e.preventDefault();
+ let d = {name: document.getElementById('name').value, phone: document.getElementById('phone').value, location: document.getElementById('location').value, rera: document.getElementById('rera').value};
+ let msg = `NEW OWNER LEAD - UNYHOTELS.COM - 70/30%0AName: ${d.name}%0APhone: ${d.phone}%0ALocation: ${d.location}%0ASale Deed: ${d.rera}%0ACompany: UNY HOTELS AND RESORTS P LTD%0ADomain: unyhotels.com - BOOKED`;
+ window.open(`https://wa.me/91YOURNUMBER?text=${msg}`, '_blank');
+ alert('Lead Submitted to unyhotels.com! Check WhatsApp.');
+});
+</script>
+</body>
+</html>
